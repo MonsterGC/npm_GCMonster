@@ -1,13 +1,25 @@
 {
   "name": "monster-zip",
   "version": "1.0.0",
-  "description": "",
+  "description": "解压与压缩",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicksiyi/GCMonster/tree/master/monster-zip"
+  },
+  "keywords": [
+    "GCMonster",
+    "zip"
+  ],
   "author": "GC怪兽 <1724264854@qq.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicksiyi/GCMonster/issues"
+  },
+  "homepage": "https://github.com/vicksiyi/GCMonster",
   "devDependencies": {
     "moxie-zip": "0.0.4",
     "unzip": "^0.1.11"
