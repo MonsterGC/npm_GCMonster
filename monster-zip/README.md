@@ -13,7 +13,7 @@ const GCMonster = require('./index').GCMonster
  * @param   {String}     target  压缩包地址
  * @param   {Object}     options 过滤条件，参考glob的ignore文档
  * @param   {Function}   fn      回调函数
- * @example  zip('./folder', 'folder.zip', fn)
+ * @example  zip('./test', './test.zip', fn)
  */
 GCZip.zip('./test', './test.zip', [], function(err){
 	console.log(arguments)
@@ -24,7 +24,7 @@ GCZip.zip('./test', './test.zip', [], function(err){
  * @param    {String}   src     压缩包地址
  * @param    {String}   target  解压缩目的地
  * @param    {Function} fn      回调，可选
- * @example  zip('./folder.zip', './test/folder' [, fn]);
+ * @example  zip('./test.zip', './test' [, fn]);
  */
 package.unzip(src, target, callback)
 
