@@ -5,7 +5,7 @@
 
 ### API
 ```js
-const GCMonster = require('./index').GCMonster
+const GCMonster = require('monster-zip').GCMonster
 
 /**
  * 打包Zip
